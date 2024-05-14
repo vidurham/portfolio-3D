@@ -25,35 +25,35 @@ const renderContent = {
     2: (
       <InfoBox 
         text="Explore the former website for the first ever app developed by Durham App Designs"
-        link = "/about"
+        link = "/portfolio-3D/about"
         btnText="Go to old Website"
       />
     ),
     3: (
       <InfoBox 
         text="From drones to biology, see former jobs and education"
-        link = "/about"
+        link = "/portfolio-3D/about"
         btnText="View Resume"
       />
     ),
     4: (
       <InfoBox 
         text="Meet the legend and learn his coding journey"
-        link = "/about"
+        link = "/portfolio-3D/about"
         btnText="Learn more"
       />
     ),
     5: (
       <InfoBox 
         text="Look through recent projects completed in the past two years"
-        link = "/projects"
+        link = "/portfolio-3D/projects"
         btnText="Visit portfolio"
       />
     ),
     6: (
       <InfoBox 
         text="Need a project done or looking for a developer?"
-        link = "/about"
+        link = "/portfolio-3D/about"
         btnText="Let's Talk"
       />
     ),

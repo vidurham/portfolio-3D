@@ -1,12 +1,12 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import { Home, About, Projects, Contact } from './pages';
+import { Home, About, Projects, Contact} from './pages';
 
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      <Router basename="/portfolio-3D">
+      <Router basename='/portfolio-3D'>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -16,7 +16,7 @@ const App = () => {
         </Routes>
       </Router>    
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
