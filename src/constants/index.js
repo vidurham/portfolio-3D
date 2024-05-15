@@ -217,11 +217,11 @@ export const projects = [
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
+        name: 'AI Learning Puzzle',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/puzzle.mp4'
         }
     },
     {
@@ -231,7 +231,7 @@ export const projects = [
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/arm.mp4'
         }
     },
     {
