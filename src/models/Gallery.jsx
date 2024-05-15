@@ -7,7 +7,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { a } from "@react-spring/three";
 
-import galleryScene from '../assets/3d/portfolio.glb'
+import galleryScene from '../assets/3d/newport.glb'
 
 export function Gallery({
     isRotating,
@@ -193,48 +193,56 @@ export function Gallery({
 
   return (
     <a.group ref={galleryRef} {...props}>
-      <group rotation={[0, 0, Math.PI / 2]} scale={[4.3, 12.9, 4.3]}>
-        <mesh
-          geometry={nodes.Cylinder.geometry}
-          material={materials.Structure}
-        />
-        <mesh
-          geometry={nodes.Cylinder_1.geometry}
-          material={materials.Backwall}
-        />
-        <group
-          position={[-1.73, 0, 0]}
-          rotation={[0, 0, -Math.PI / 2]}
-          scale={[0.062, 0.186, 0.186]}
-        >
+<group scale={0.01}>
+        <group rotation={[-Math.PI / 2, -Math.PI / 2, 0]} scale={[430, 430, 1290]}>
+          <group position={[-1.73, 0, 0]} rotation={[0, 1.571, 0]} scale={[0.062, 0.186, 0.186]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.Benches_Benches_0.geometry}
+              material={materials.Benches}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.Benches_Chrome_0.geometry}
+              material={materials.Chrome}
+            />
+          </group>
           <mesh
-            geometry={nodes.Cube001.geometry}
-            material={materials.Benches}
+            castShadow
+            receiveShadow
+            geometry={nodes.Gallery_Backwall_0.geometry}
+            material={materials.Backwall}
           />
           <mesh
-            geometry={nodes.Cube001_1.geometry}
-            material={materials.Chrome}
+            castShadow
+            receiveShadow
+            geometry={nodes.Gallery_Structure_0.geometry}
+            material={materials.Structure}
           />
-        </group>
-        <mesh
-          geometry={nodes.Podiums.geometry}
-          material={materials.Podiums}
-          position={[-1.803, 0, 0]}
-          rotation={[0, 0, -Math.PI / 2]}
-          scale={[0.078, 0.233, 0.233]}
-        />
-        <group
-          position={[-0.978, 0, 0]}
-          rotation={[0, 0, -Math.PI / 2]}
-          scale={[0.233, 0.419, 0.233]}
-        >
+          <group position={[-0.978, 0, 0]} rotation={[0, 1.571, 0]} scale={[0.233, 0.233, 0.419]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.Portraits_PaintingFrame_0.geometry}
+              material={materials.PaintingFrame}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.Portraits_Portraits_0.geometry}
+              material={materials.Portraits}
+            />
+          </group>
           <mesh
-            geometry={nodes.Cube003.geometry}
-            material={materials.PaintingFrame}
-          />
-          <mesh
-            geometry={nodes.Cube003_1.geometry}
-            material={materials.Portraits}
+            castShadow
+            receiveShadow
+            geometry={nodes.Podiums_Podiums_0.geometry}
+            material={materials.Podiums}
+            position={[-1.803, 0, 0]}
+            rotation={[0, 1.571, 0]}
+            scale={[0.078, 0.233, 0.233]}
           />
         </group>
       </group>
@@ -242,6 +250,6 @@ export function Gallery({
   );
 }
 
-useGLTF.preload("/portfolio.glb");
+useGLTF.preload("/newport.glb");
 
 export default Gallery;

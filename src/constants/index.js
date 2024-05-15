@@ -118,10 +118,10 @@ export const experiences = [
         iconBg: "black",
         date: "August 2016 - May 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Wadgymar Lab at Davidson College",
+            "Davidson College Lake Campus Lifeguard",
+            "Davidson Football Team",
+            "Phi Delta Theta",
         ],
     },
     {
@@ -129,7 +129,7 @@ export const experiences = [
         company_name: "Drone Service Operator",
         icon: lucid,
         iconBg: "aqua",
-        date: "Jan 2021 - Feb 2022",
+        date: "Oct 2020 - June 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,7 +142,7 @@ export const experiences = [
         company_name: "Full-Stack Coding Certificate",
         icon: uncc,
         iconBg: "lightgreen",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2022 - June 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,7 +155,7 @@ export const experiences = [
         company_name: "Master of Computer Science & Graduate Certificate in Autonomous Systems",
         icon: dayton,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Aug 2022 - May 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -189,41 +189,59 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Virtual Reaity Roller Coaster',
         description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        video: {
+            type: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ngchv6CqZI8'
+        }
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Augmented Reality Painting',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Allyouneed.mp4'
+        }
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'Multiplayer Blade Spinners',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+        }
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Full Stack Instagram Clone',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+        }
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
+        name: 'AI Arm Walk',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+        }
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
+        name: 'Neural Network Image Detection',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Final_Detection.mp4'
+        }
     }
 ];
