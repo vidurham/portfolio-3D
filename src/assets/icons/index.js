@@ -11,20 +11,25 @@ import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
 import redux from './redux.svg'
-import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import DavidsonCollege from './davidson.svg'
+import unity from './unity.svg'
+import cplus from './c++.svg'
+import photoshop from './photoshop.svg'
+import python from './python.svg'
+import flutter from './flutter.svg'
+import firebase from './firebase.svg'
+import puzzle from './puzzle.svg'
+import painting from './painting.svg'
+import rollercoaster from './roller-coaster.svg'
+import sawblade from './sawblade.svg'
+import arm from './arm.svg'
+import brain from './brain.svg'
 
 
 export {
@@ -41,18 +46,23 @@ export {
     nodejs,
     react,
     redux,
-    sass,
     tailwindcss,
     typescript,
     linkedin,
     twitter,
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
     arrow,
     contact,
     DavidsonCollege,
+    unity,
+    cplus,
+    photoshop,
+    python,
+    flutter,
+    firebase,
+    puzzle,
+    painting,
+    rollercoaster,
+    sawblade,
+    arm,
+    brain
 }

@@ -1,10 +1,8 @@
-import { dayton, davidson, lucid, uncc } from "../assets/images";
+import { dayton, davidson, lucid, uncc, qlearning, astar, object } from "../assets/images";
 import {
-    car,
     contact,
     css,
     DavidsonCollege,
-    estate,
     express,
     git,
     github,
@@ -16,18 +14,30 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    unity,
+    cplus,
+    photoshop,
+    python,
+    flutter,
+    firebase,
+    puzzle,
+    painting,
+    rollercoaster,
+    sawblade,
+    arm,
+    brain,
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: cplus,
+        name: "C++",
+        type: "Language",
+    },
     {
         imageUrl: css,
         name: "CSS",
@@ -37,6 +47,16 @@ export const skills = [
         imageUrl: express,
         name: "Express",
         type: "Backend",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Backend",
+    },
+    {
+        imageUrl: flutter,
+        name: "Flutter",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -84,6 +104,16 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: photoshop,
+        name: "Photoshop",
+        type: "Animation",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Language",
+    },
+    {
         imageUrl: react,
         name: "React",
         type: "Frontend",
@@ -94,11 +124,6 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -107,34 +132,25 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: unity,
+        name: "Unity",
+        type: "Animation",
     }
 ];
 
 export const experiences = [
     {
-        title: "Davidson College",
-        company_name: "Bachelor of Science, Biology",
-        icon: davidson,
-        iconBg: "black",
-        date: "August 2016 - May 2020",
+        title: "University of Dayton",
+        company_name: "Master of Computer Science & Graduate Certificate in Autonomous Systems",
+        icon: dayton,
+        iconBg: "#a2d2ff",
+        date: "Aug 2022 - May 2024",
         points: [
-            "Wadgymar Lab at Davidson College",
-            "Davidson College Lake Campus Lifeguard",
-            "Davidson Football Team",
-            "Phi Delta Theta",
-        ],
-    },
-    {
-        title: "Lucid Drone Technologies",
-        company_name: "Drone Service Operator",
-        icon: lucid,
-        iconBg: "aqua",
-        date: "Oct 2020 - June 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Skyline Chili - Employee",
+            "Participated in the Flyer Pitch competition (Once-A-Daily, full-stack social media app) and the Kaggle Big Data Bowl (Quantifying Effort in the NFL).",
+            "Learned newer and more complex skills, such as 3D animation and neural networks.",
         ],
     },
     {
@@ -144,23 +160,32 @@ export const experiences = [
         iconBg: "lightgreen",
         date: "Jan 2022 - June 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learned skills such as HTML, CSS, JavaScript, React for frontend development; Node.js, Express, and databases like MongoDB and MySQL for backend development; and how to create and consume REST APIs.",
         ],
     },
     {
-        title: "University of Dayton",
-        company_name: "Master of Computer Science & Graduate Certificate in Autonomous Systems",
-        icon: dayton,
-        iconBg: "#a2d2ff",
-        date: "Aug 2022 - May 2024",
+        title: "Lucid Drone Technologies",
+        company_name: "Drone Service Operator",
+        icon: lucid,
+        iconBg: "aqua",
+        date: "Oct 2020 - June 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Oversaw the Services department of Lucid Drones Technologies, and led a few world-first drone cleaning operations, including the first drone cleaning of an industrial tank in Baton Rouge, LA, two drones cleaning a prestigious golf clubhouse in Atlanta, GA at the same time, and a night cleaning of a bank in Columbia, SC.",
+            "Built and programmed industrial cleaning drones, and developed the first drone window cleaning chemical, Lucid Clear.",
+            "Coordinated and completed nationwide drone cleaning projects, managed customer service for over 20 clients, and logged over 200 hours of drone flying.",
+        ],
+    },
+    {
+        title: "Davidson College",
+        company_name: "Bachelor of Science, Biology",
+        icon: davidson,
+        iconBg: "black",
+        date: "August 2016 - May 2020",
+        points: [
+            "Wadgymar Lab at Davidson College - Lab Technician - Gained comprehensive experience in plant species research through greenhouse and lab techniques, including growing, measuring, dissecting, and staining seeds, as well as setting up outdoor experiments and managing data.",
+            "Davidson College Lake Campus - Head Lifeguard - Supervised seven lifeguards and ensured the safety of over 100 children weekly as head lifeguard at Davidson College Lake Campus and swimming pool.",
+            "Davidson Football Team - Player - Developed strong time management skills balancing 10-15 hours of weekly football with academics and work, served as position group captain for leadership and motivation, and achieved 3x PFL Academic Honor Roll.",
+            "Phi Delta Theta - Sustainability Chair/Member",
         ],
     },
 ];
@@ -185,7 +210,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: rollercoaster,
         theme: 'btn-back-red',
         name: 'Virtual Reaity Roller Coaster',
         description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
@@ -195,7 +220,18 @@ export const projects = [
         }
     },
     {
-        iconUrl: threads,
+        iconUrl: brain,
+        theme: 'btn-back-yellow',
+        name: 'Neural Network Image Detection',
+        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Final_Detection.mp4'
+        },
+        pdfUrl: object
+    },
+    {
+        iconUrl: painting,
         theme: 'btn-back-green',
         name: 'Augmented Reality Painting',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
@@ -205,7 +241,18 @@ export const projects = [
         }
     },
     {
-        iconUrl: car,
+        iconUrl: arm,
+        theme: 'btn-back-black',
+        name: 'AI Arm Walk',
+        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/arm.mp4'
+        },
+        pdfUrl: qlearning
+    },
+    {
+        iconUrl: sawblade,
         theme: 'btn-back-blue',
         name: 'Multiplayer Blade Spinners',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
@@ -215,33 +262,14 @@ export const projects = [
         }
     },
     {
-        iconUrl: snapgram,
+        iconUrl: puzzle,
         theme: 'btn-back-pink',
         name: 'AI Learning Puzzle',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/puzzle.mp4'
-        }
+        },
+        pdfUrl: astar
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'AI Arm Walk',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        video: {
-            type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/arm.mp4'
-        }
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'Neural Network Image Detection',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        video: {
-            type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Final_Detection.mp4'
-        }
-    }
 ];

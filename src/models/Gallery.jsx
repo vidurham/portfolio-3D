@@ -168,7 +168,7 @@ export function Gallery({
           setCurrentStage(6);
           break;
         case normalizedRotation >= 5 && normalizedRotation <= 5.3:
-          setCurrentStage(5);
+          setCurrentStage(2);
           break;
         case normalizedRotation >= 5.9 && normalizedRotation <= 7:
           setCurrentStage(4);
@@ -180,7 +180,7 @@ export function Gallery({
           setCurrentStage(3);
           break;
         case normalizedRotation >= 1.85 && normalizedRotation <= 2.2:
-          setCurrentStage(2);
+          setCurrentStage(5);
           break;
         case normalizedRotation >= 2.8 && normalizedRotation <= 3.5:
           setCurrentStage(1);
