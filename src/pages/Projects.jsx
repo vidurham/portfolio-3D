@@ -59,7 +59,7 @@ const Projects = () => {
                                         href={project.pdfUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="font-semibold text-blue-600"
+                                        className="font-semibold text-blue-600 ml-3"
                                     >
                                         View PDF
                                     </a>
