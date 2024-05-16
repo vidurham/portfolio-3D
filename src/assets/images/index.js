@@ -5,6 +5,8 @@ import uncc from './charlotte.png'
 import qlearning from './Qlearning.pdf'
 import astar from './Astar.pdf'
 import object from './object.pdf'
+import resume from './Resume.pdf'
+
 
 export {
     dayton,
@@ -13,5 +15,6 @@ export {
     uncc,
     qlearning,
     astar,
-    object
+    object,
+    resume
 }

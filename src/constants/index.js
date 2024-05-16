@@ -183,6 +183,7 @@ export const experiences = [
         date: "August 2016 - May 2020",
         points: [
             "Wadgymar Lab at Davidson College - Lab Technician - Gained comprehensive experience in plant species research through greenhouse and lab techniques, including growing, measuring, dissecting, and staining seeds, as well as setting up outdoor experiments and managing data.",
+            "Davidson Football Office - Coach Eisenhofer’s Office Assistant - Analyzed and broke down team and opponent film using Hudl, addressed letters to recruits, and assisted with recruiting visits.",
             "Davidson College Lake Campus - Head Lifeguard - Supervised seven lifeguards and ensured the safety of over 100 children weekly as head lifeguard at Davidson College Lake Campus and swimming pool.",
             "Davidson Football Team - Player - Developed strong time management skills balancing 10-15 hours of weekly football with academics and work, served as position group captain for leadership and motivation, and achieved 3x PFL Academic Honor Roll.",
             "Phi Delta Theta - Sustainability Chair/Member",

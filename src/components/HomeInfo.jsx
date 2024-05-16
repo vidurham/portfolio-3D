@@ -1,16 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { resume } from '../assets/images';
 
-const InfoBox = ({ text, link, btnText }) => (
-    <div className='info-box'>
-        <p className='font-medium sm:text-xl text-center p-4'>
-          {text}
-        </p>
-        <Link to={link} className='neo-brutalism-white neo-btn'>
-            {btnText}
-        </Link>
-    </div>
-)
+const InfoBox = ({ text, link, btnText }) => {
+  const isExternalLink = link.startsWith('http') || link.endsWith('.pdf');
+
+  return (
+      <div className='info-box'>
+          <p className='font-medium sm:text-xl text-center p-4'>
+              {text}
+          </p>
+          {isExternalLink ? (
+              <a href={link} className='neo-brutalism-white neo-btn' target="_blank" rel="noopener noreferrer">
+                  {btnText}
+              </a>
+          ) : (
+              <Link to={link} className='neo-brutalism-white neo-btn'>
+                  {btnText}
+              </Link>
+          )}
+      </div>
+  );
+};
 
 const renderContent = {
     1: (
@@ -32,7 +43,7 @@ const renderContent = {
     3: (
       <InfoBox 
         text="From drones to biology, see former jobs and education"
-        link = "/about"
+        link = {resume}
         btnText="View Resume"
       />
     ),
