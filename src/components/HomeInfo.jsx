@@ -19,7 +19,7 @@ const renderContent = {
         <span className='font-semibold mx-2 text-white'>Vincent Durham</span>
         👋
         <br />
-        A Software Engineer from Ohio
+        A Software Engineer from Cincinnati, Ohio
       </h1>
     ),
     2: (

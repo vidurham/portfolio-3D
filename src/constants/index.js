@@ -213,7 +213,7 @@ export const projects = [
         iconUrl: rollercoaster,
         theme: 'btn-back-red',
         name: 'Virtual Reaity Roller Coaster',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        description: 'Created a VR-experience rollercoaster in Unity. The experience includes walking to your cart, riding a spline built track with custom physics, and ending in a fiery crash.',
         video: {
             type: 'youtube',
             url: 'https://www.youtube.com/watch?v=ngchv6CqZI8'
@@ -223,7 +223,7 @@ export const projects = [
         iconUrl: brain,
         theme: 'btn-back-yellow',
         name: 'Neural Network Image Detection',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        description: 'Trained, tested, and validated an object detection system using TensorFlow’s MobileNetV2 FPNLite architecture.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Final_Detection.mp4'
@@ -234,7 +234,7 @@ export const projects = [
         iconUrl: painting,
         theme: 'btn-back-green',
         name: 'Augmented Reality Painting',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        description: 'Developed a augmented reality application in Unity that changes a painting to a live scene.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Allyouneed.mp4'
@@ -243,8 +243,8 @@ export const projects = [
     {
         iconUrl: arm,
         theme: 'btn-back-black',
-        name: 'AI Arm Walk',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'Robot Arm Walk',
+        description: 'Using Q-learning based reinforcement, a two jointed robot arm is capable of moving a rectangular body across a surface.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/arm.mp4'
@@ -255,7 +255,7 @@ export const projects = [
         iconUrl: sawblade,
         theme: 'btn-back-blue',
         name: 'Multiplayer Blade Spinners',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
@@ -265,7 +265,7 @@ export const projects = [
         iconUrl: puzzle,
         theme: 'btn-back-pink',
         name: 'AI Learning Puzzle',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        description: 'Implemented A* search algorithm on an 8-piece puzzle game, allowing the computer to solve puzzles itself.',
         video: {
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/puzzle.mp4'
