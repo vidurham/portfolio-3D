@@ -5,14 +5,17 @@ import { useState } from "react";
 
 const Projects = () => {
     const [videoUrl, setVideoUrl] = useState(null);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openVideoPopup = (url) => {
         setVideoUrl(url);
+        setIsModalOpen(true);
         console.log("Video URL:", url);
     };
-  
+
     const closeVideoPopup = () => {
         setVideoUrl(null);
+        setIsModalOpen(false);
     };
 
     return (
@@ -25,7 +28,7 @@ const Projects = () => {
             </h1>
 
             <p className='text-slate-500 mt-2 leading-relaxed'>
-            Despite starting my coding journey just 4 years ago, I've already tackled a diverse array of projects throughout my graduate studies. These examples showcase the dedication and skill I bring to each endeavor.
+                Despite starting my coding journey just 4 years ago, I've already tackled a diverse array of projects throughout my graduate studies. These examples showcase the dedication and skill I bring to each endeavor.
             </p>
 
             <div className='flex flex-wrap my-20 gap-16'>
@@ -36,7 +39,7 @@ const Projects = () => {
                             <div className='btn-front rounded-xl flex justify-center items-center'>
                                 <img
                                     src={project.iconUrl}
-                                    alt='threads'
+                                    alt={project.name}
                                     className='w-1/2 h-1/2 object-contain'
                                 />
                             </div>
@@ -70,24 +73,32 @@ const Projects = () => {
                 ))}
             </div>
 
-            {videoUrl && (
-                <div className="video-popup">
-                    {videoUrl.type === 'github' ? (
-                        <video controls>
-                            <source src={videoUrl.url} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    ) : (
-                      <iframe
-                      title="YouTube Video"
-                      width="560"
-                      height="315"
-                      src={`https://www.youtube.com/embed/${videoUrl.url.split('v=')[1]}`}
-                      frameBorder="0"
-                      allowFullScreen
-                      ></iframe>
-                    )}
-                    <button onClick={closeVideoPopup}>Close</button>
+            {isModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                    <div className="relative bg-white p-5 rounded-lg max-w-2xl w-full mx-4 max-h-96 overflow-auto">
+                        <button
+                            onClick={closeVideoPopup}
+                            className="absolute right-0 top-0 p-3 text-gray-500 hover:text-gray-700"
+                        >
+                         &times;
+                        </button>
+                        <div className="video-container">
+                            {videoUrl.type === 'github' ? (
+                                <video controls className="w-full h-auto max-h-80">
+                                    <source src={videoUrl.url} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            ) : (
+                                <iframe
+                                    title="YouTube Video"
+                                    className="w-full h-80"
+                                    src={`https://www.youtube.com/embed/${videoUrl.url.split('v=')[1]}`}
+                                    frameBorder="0"
+                                    allowFullScreen
+                                ></iframe>
+                            )}
+                        </div>
+                    </div>
                 </div>
             )}
 
