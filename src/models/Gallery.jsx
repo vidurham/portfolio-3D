@@ -60,7 +60,7 @@ export function Gallery({
       const delta = (clientX - lastX.current) / viewport.width;
 
       // Update the island's rotation based on the mouse/touch movement
-      galleryRef.current.rotation.y += delta * 0.01 * Math.PI;
+      galleryRef.current.rotation.y -= delta * 0.01 * Math.PI;
 
       // Update the reference for the last clientX position
       lastX.current = clientX;
