@@ -58,7 +58,7 @@ const renderContent = {
       <InfoBox 
         text="Look through recent projects completed in the past four years"
         link = "/projects"
-        btnText="Visit portfolio"
+        btnText="See past projects"
       />
     ),
     6: (

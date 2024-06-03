@@ -138,7 +138,7 @@ export function Gallery({
         rotationSpeed.current = 0;
       }
 
-      galleryRef.current.rotation.y += rotationSpeed.current;
+      galleryRef.current.rotation.y -= rotationSpeed.current;
     } else {
       // When rotating, determine the current stage based on island's orientation
       const rotation = galleryRef.current.rotation.y;
