@@ -30,6 +30,7 @@ import rollercoaster from './roller-coaster.svg'
 import sawblade from './sawblade.svg'
 import arm from './arm.svg'
 import brain from './brain.svg'
+import videogame from './videogame.svg'
 
 
 export {
@@ -64,5 +65,6 @@ export {
     rollercoaster,
     sawblade,
     arm,
-    brain
+    brain,
+    videogame
 }

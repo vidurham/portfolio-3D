@@ -30,6 +30,7 @@ import {
     sawblade,
     arm,
     brain,
+    videogame,
 } from "../assets/icons";
 
 export const skills = [
@@ -221,6 +222,16 @@ export const projects = [
         }
     },
     {
+        iconUrl: videogame,
+        theme: 'btn-back-blue',
+        name: 'Short Video Game',
+        description: 'Developed a short video game that involves collecting coins to complete the game',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/videogm.mp4'
+        }
+    },
+    {
         iconUrl: brain,
         theme: 'btn-back-yellow',
         name: 'Neural Network Image Detection',
@@ -254,7 +265,7 @@ export const projects = [
     },
     {
         iconUrl: sawblade,
-        theme: 'btn-back-blue',
+        theme: 'btn-back-pink',
         name: 'Multiplayer Blade Spinners',
         description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
         video: {
@@ -264,7 +275,7 @@ export const projects = [
     },
     {
         iconUrl: puzzle,
-        theme: 'btn-back-pink',
+        theme: 'btn-back-red',
         name: 'AI Learning Puzzle',
         description: 'Implemented A* search algorithm on an 8-piece puzzle game, allowing the computer to solve puzzles itself.',
         video: {
