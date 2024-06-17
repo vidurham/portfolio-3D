@@ -31,6 +31,7 @@ import sawblade from './sawblade.svg'
 import arm from './arm.svg'
 import brain from './brain.svg'
 import videogame from './videogame.svg'
+import paper from './paper.svg'
 
 
 export {
@@ -66,5 +67,6 @@ export {
     sawblade,
     arm,
     brain,
-    videogame
+    videogame,
+    paper
 }

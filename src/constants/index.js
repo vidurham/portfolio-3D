@@ -31,6 +31,7 @@ import {
     arm,
     brain,
     videogame,
+    paper,
 } from "../assets/icons";
 
 export const skills = [
@@ -211,6 +212,16 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: paper,
+        theme: 'btn-back-pink',
+        name: 'Animated Resume',
+        description: 'A simple news interview based around my resume, built in Unreal Engine 5.4',
+        video: {
+            type: 'youtube',
+            url: 'https://www.youtube.com/watch?v=AJpV05n5dEs'
+        }
+    },
     {
         iconUrl: rollercoaster,
         theme: 'btn-back-red',
