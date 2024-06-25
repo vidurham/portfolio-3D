@@ -281,7 +281,7 @@ export const projects = [
         description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/AR_Game.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/bladegame.mp4'
         }
     },
     {
