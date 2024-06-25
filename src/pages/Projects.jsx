@@ -31,6 +31,17 @@ const Projects = () => {
                 Despite starting my coding journey just 4 years ago, I've already tackled a diverse array of projects throughout my graduate studies. These examples showcase the dedication and skill I bring to each endeavor.
             </p>
 
+            <div className="flex justify-center my-10 mb-8">
+                <a 
+                    href="https://github.com/vidurham" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 font-semibold"
+                >
+                    View my GitHub page
+                </a>
+            </div>
+
             <div className='flex flex-wrap my-20 gap-16'>
                 {projects.map((project) => (
                     <div className='lg:w-[400px] w-full' key={project.name}>
