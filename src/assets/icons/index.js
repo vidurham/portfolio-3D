@@ -32,6 +32,7 @@ import arm from './arm.svg'
 import brain from './brain.svg'
 import videogame from './videogame.svg'
 import paper from './paper.svg'
+import database from './database.svg'
 
 
 export {
@@ -68,5 +69,6 @@ export {
     arm,
     brain,
     videogame,
-    paper
+    paper,
+    database
 }

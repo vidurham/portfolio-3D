@@ -6,17 +6,17 @@ const Home = () => {
         <section className="w-full h-screen flex flex-col items-center justify-center">
             <div className="bg-white/70 p-10 rounded-lg shadow-lg text-center">
                 <h1 className="text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-lime-600">
-                    Welcome
+                    Welcome to Vincent's Portfolio
                 </h1>
                 <p className="text-lg mb-10 text-gray-700">
-                    Discover my work and learn more about my projects.
+                    You're presence here is appreciated, click to discover my work or learn more about Vincent.
                 </p>
                 <div className="flex flex-col space-y-4">
                     <Link 
                         to="/about"
                         className="px-6 py-3 bg-teal-600 text-white rounded-full shadow-md transform transition duration-300 hover:bg-teal-700 hover:-translate-y-1 hover:scale-105"
                     >
-                        Learn More About Me
+                        Learn More About Vincent
                     </Link>
                     <Link 
                         to="/projects"

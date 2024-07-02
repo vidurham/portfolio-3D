@@ -6,6 +6,7 @@ import qlearning from './Qlearning.pdf'
 import astar from './Astar.pdf'
 import object from './object.pdf'
 import resume from './Resume.pdf'
+import sql from './sql.pdf'
 
 
 export {
@@ -16,5 +17,6 @@ export {
     qlearning,
     astar,
     object,
-    resume
+    resume,
+    sql
 }

@@ -1,4 +1,4 @@
-import { dayton, davidson, lucid, uncc, qlearning, astar, object } from "../assets/images";
+import { dayton, davidson, lucid, uncc, qlearning, astar, object, sql } from "../assets/images";
 import {
     contact,
     css,
@@ -32,6 +32,7 @@ import {
     brain,
     videogame,
     paper,
+    database
 } from "../assets/icons";
 
 export const skills = [
@@ -233,14 +234,21 @@ export const projects = [
         }
     },
     {
-        iconUrl: videogame,
-        theme: 'btn-back-blue',
-        name: 'Short Video Game',
-        description: 'Developed a short video game that involves collecting coins to complete the game',
+        iconUrl: sawblade,
+        theme: 'btn-back-pink',
+        name: 'Multiplayer Blade Spinners',
+        description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/videogm.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/bladegame.mp4'
         }
+    },
+    {
+        iconUrl: database,
+        theme: 'btn-back-blue',
+        name: 'Calendar Social Media Database',
+        description: 'A full report on a MySQL database built for a social media calendar app. The report includes a description, ER-model, relational schema, logical and physical models, and inserted data and queries.',
+        pdfUrl: sql
     },
     {
         iconUrl: brain,
@@ -275,13 +283,13 @@ export const projects = [
         pdfUrl: qlearning
     },
     {
-        iconUrl: sawblade,
-        theme: 'btn-back-pink',
-        name: 'Multiplayer Blade Spinners',
-        description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
+        iconUrl: videogame,
+        theme: 'btn-back-blue',
+        name: 'Short Video Game',
+        description: 'Developed a short video game that involves collecting coins to complete the game',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/bladegame.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/videogm.mp4'
         }
     },
     {
@@ -291,7 +299,7 @@ export const projects = [
         description: 'Implemented A* search algorithm on an 8-piece puzzle game, allowing the computer to solve puzzles itself.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/puzzle.mp4'
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/betpuzzle.mp4'
         },
         pdfUrl: astar
     },
