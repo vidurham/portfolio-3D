@@ -224,33 +224,6 @@ export const projects = [
         }
     },
     {
-        iconUrl: rollercoaster,
-        theme: 'btn-back-red',
-        name: 'Virtual Reaity Roller Coaster',
-        description: 'Created a VR-experience rollercoaster in Unity. The experience includes walking to your cart, riding a spline built track with custom physics, and ending in a fiery crash.',
-        video: {
-            type: 'youtube',
-            url: 'https://www.youtube.com/watch?v=ngchv6CqZI8'
-        }
-    },
-    {
-        iconUrl: sawblade,
-        theme: 'btn-back-pink',
-        name: 'Multiplayer Blade Spinners',
-        description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
-        video: {
-            type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/bladegame.mp4'
-        }
-    },
-    {
-        iconUrl: database,
-        theme: 'btn-back-blue',
-        name: 'Calendar Social Media Database',
-        description: 'A full report on a MySQL database built for a social media calendar app. The report includes a description, ER-model, relational schema, logical and physical models, and inserted data and queries.',
-        pdfUrl: sql
-    },
-    {
         iconUrl: brain,
         theme: 'btn-back-yellow',
         name: 'Neural Network Image Detection',
@@ -262,14 +235,25 @@ export const projects = [
         pdfUrl: object
     },
     {
-        iconUrl: painting,
-        theme: 'btn-back-green',
-        name: 'Augmented Reality Painting',
-        description: 'Developed a augmented reality application in Unity that changes a painting to a live scene.',
+        iconUrl: rollercoaster,
+        theme: 'btn-back-blue',
+        name: 'Virtual Reality Roller Coaster',
+        description: 'Created a VR-experience rollercoaster in Unity. The experience includes walking to your cart, riding a spline built track with custom physics, and ending in a fiery crash.',
+        video: {
+            type: 'youtube',
+            url: 'https://www.youtube.com/watch?v=ngchv6CqZI8'
+        }
+    },
+    {
+        iconUrl: puzzle,
+        theme: 'btn-back-red',
+        name: 'AI Learning Puzzle',
+        description: 'Implemented A* search algorithm on an 8-piece puzzle game, allowing the computer to solve puzzles itself.',
         video: {
             type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Allyouneed.mp4'
-        }
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/betpuzzle.mp4'
+        },
+        pdfUrl: astar
     },
     {
         iconUrl: arm,
@@ -283,6 +267,33 @@ export const projects = [
         pdfUrl: qlearning
     },
     {
+        iconUrl: database,
+        theme: 'btn-back-yellow',
+        name: 'Calendar Social Media Database',
+        description: 'A full report on a MySQL database built for a social media calendar app. The report includes a description, ER-model, relational schema, logical and physical models, and inserted data and queries.',
+        pdfUrl: sql
+    },
+    {
+        iconUrl: painting,
+        theme: 'btn-back-green',
+        name: 'Augmented Reality Painting',
+        description: 'Developed a augmented reality application in Unity that changes a painting to a live scene.',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/Allyouneed.mp4'
+        }
+    },
+    {
+        iconUrl: sawblade,
+        theme: 'btn-back-pink',
+        name: 'Multiplayer AR Blade Spinners',
+        description: 'Built a multiplayer augmented reality blade-spinner game. The app could place down the arena on any surface and had real-time multiplayer capabilities using the Photon engine.',
+        video: {
+            type: 'github',
+            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/bladegame.mp4'
+        }
+    },
+    {
         iconUrl: videogame,
         theme: 'btn-back-blue',
         name: 'Short Video Game',
@@ -291,16 +302,5 @@ export const projects = [
             type: 'github',
             url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/videogm.mp4'
         }
-    },
-    {
-        iconUrl: puzzle,
-        theme: 'btn-back-red',
-        name: 'AI Learning Puzzle',
-        description: 'Implemented A* search algorithm on an 8-piece puzzle game, allowing the computer to solve puzzles itself.',
-        video: {
-            type: 'github',
-            url: 'https://raw.githubusercontent.com/vidurham/project-videos/main/betpuzzle.mp4'
-        },
-        pdfUrl: astar
     },
 ];

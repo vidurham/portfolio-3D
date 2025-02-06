@@ -12,8 +12,8 @@ const GalleryComp = () => {
         let screenScale, screenPosition;
     
         if (window.innerWidth < 768) {
-          screenScale = [0.9, 0.9, 0.9];
-          screenPosition = [0, 3, -0.4];
+          screenScale = [0.7, 0.7, 0.7];
+          screenPosition = [0, 2, 0];
         } else {
           screenScale = [1, 1, 1];
           screenPosition = [0, 3, -0.2];
@@ -33,7 +33,17 @@ const GalleryComp = () => {
             className={`w-full h-screen bg-transparent ${
                 isRotating ? "cursor-grabbing" : "cursor-grab"
             }`}
-            camera = {{ near: 0.1, far: 100 }}>
+            camera={{ 
+                near: 0.1, 
+                far: 100,
+                position: [0, 0, 8],
+                fov: window.innerWidth < 768 ? 65 : 45
+            }}
+            onTouchMove={(e) => {
+                e.preventDefault();
+            }}
+            eventSource={document.getElementById('root')}
+            eventPrefix="client">
             <Suspense fallback={<Loader />}>
                 <directionalLight />
                 <ambientLight />
